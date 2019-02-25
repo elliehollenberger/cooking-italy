@@ -476,22 +476,23 @@ footer{
 }
 #social{
     padding-top: 44px;
-    padding-left: 375px;
+    
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #998a70;
     font-weight: 300;
-    float: left;
+    float: right;
 }
 .media{
     background-color: #243c5d;
     color: #ecdcc1;
-    height: 33px;
+    height: 29px;
     width: 33px;
     text-align: center;
-    margin-top: 34px;
+   
     float: right;
-    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 4px;
 }
 .media:hover{
     background-color: #ecdcc1;
@@ -577,7 +578,7 @@ footer{
     margin-top: 300px;
 }
 input[type=text] {
-    width: 100px;
+    width: 100%;
     border: 1px solid #ecdcc1;
     margin-top: 10px;
     background-color: #243c5d;
@@ -597,8 +598,6 @@ input[type=text] {
     margin-top: 5px;
 }
 #robot{
-    float: right;
-    margin-right: 180px;
     width: 38px;
 }
 input[type=checkbox]{
@@ -632,9 +631,12 @@ input[type=submit]:hover{
 #newsletter a{
     margin-top: 15px;
     float: right;
-    margin-right: 150px;
+
 }
 #newsletter a:hover{
     color: #3E68A2;
 }
 
+form{
+    width: 205px;
+}
